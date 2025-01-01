@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto' sans-serif;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  } 
+
+.cointainer-custom{
+    margin: 0;
+    padding: 0;
+}  
+
+.btn-custom{
+  background-color: black;
+  transition: all 0.5s ease;
+}
+
+.form-select-custom{
+  border-color: #ffc107;
+  background-color: black;
+  transition: all 0.5s ease;
+  box-shadow: none !important;
+  outline: none !important; 
+}
+
+.logo{
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: cover;
+  }

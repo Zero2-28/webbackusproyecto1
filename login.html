@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="imagen">
+        <img src="imagenes/logo.png">
+    </div>
+
+    <div class="container">
+        <div class="curved-shape"></div>
+        <div class="curved-shape2"></div>
+        <div class="form-box Login">
+            <h2 class="animation" style="--D:0; --S:21">Login</h2>
+            <form action="#">
+
+                <div class="input-box animation" style="--D:1; --S:22">
+                    <input type="text" required>
+                    <label for="">Nombre Usuario</label>
+                    <i class='bx bxs-user-circle'></i>
+                </div>
+
+
+                <div class="input-box animation" style="--D:2; --S:23">
+                    <input type="password" required>
+                    <label for="">Contraseña</label>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+
+
+                <div class="input-box animation" style="--D:3; --S:24">
+                    <button class="btn" type="submit">Iniciar Secion</button>
+                </div>
+
+                <div class="regi-link animation" style="--D:4; --S:25">
+                    <p>¿No tienes una cuenta?<a href="#" class="SingUpLink"> Crear Una</a></p>   
+                </div>
+            </form>
+        </div>
+        <div class="info-content Login">
+            <h2 class="animation" style="--D:0; --S:20">BIENVENIDO DE NUEVO</h2>
+            <p class="animation" style="--D:1; --S:21">Estamos felices de tenerte con nosotros nuevamente. Solo ingresa tus datos para seguir disfrutando de todos nuestros beneficios.</p>
+        </div>
+
+
+
+        <div class="form-box Register">
+
+            <h2 class="animation" style="--li:17; --S:0;">Register</h2>
+            <form action="reguistro.php" method="POST" action="#">
+
+
+                <div class="input-box animation" style="--li:18; --S:2;">
+                    <input type="email" required name="gmail">
+                    <label for="">Gmail</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+
+
+                <div class="input-box animation" style="--li:18; --S:1;">
+                    <input type="text" required name="nombre_usuario">
+                    <label for="">Nombre Usuario</label>
+                    <i class='bx bxs-user-circle'></i>
+                </div>
+
+
+                <div class="input-box animation" style="--li:19; --S:3;">
+                    <input type="password" required name="contraseña">
+                    <label for="">Contraseña</label>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+
+
+                <div class="input-box animation" style="--li:20; --S:4;">
+                    <button class="btn" type="submit">Registrarse</button name="registrarse">
+                </div>
+
+                <div class="regi-link animation" style="--li:21; --S:4;">
+                    <p>Ya tienes una cuenta <a href="#" class="SingInLink">Volver a Login</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-content Register">
+            <h2 class="animation" style="--li:17; --S:0;">¡ÚNETE A NOSOTROS!</h2>
+            <p class="animation" style="--li:18; --S:1;">Regístrate de forma rápida, para comenzar a disfrutar de todos nuestros beneficios y contenidos exclusivos que ofrecemos.</p>
+        </div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

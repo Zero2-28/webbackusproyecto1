@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="home_backus.css">
+</head>
+<body>
+    <header class="container-fluid bg-dark text-light py-3">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Logo -->
+            <div class="col-md-3 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/home-backus.html">
+                    <img src="img/SAVE_20241119_203053.jpg" alt="Logo" class="logo" style="width: 80px;">
+                </a>
+            </div>
+            
+            <!-- Menú principal -->
+            <div class="col-md-6 text-center">
+              <nav>
+                <a href="#" class="text-light mx-3 text-decoration-none">Tienda</a>
+                <a href="#" class="text-light mx-3 text-decoration-none">Sobre Nosotros</a>
+                <a href="#" class="text-light mx-3 text-decoration-none">Contáctanos</a>
+              </nav>
+            </div>
+            
+            <!-- Íconos -->
+            <div class="col-md-3 d-flex justify-content-end align-items-center">
+              <a href="">
+                <i class="bi bi-search mx-2" style="font-size: 1.5rem;"></i>
+              </a>
+              <a href="">
+                <i class="bi bi-cart mx-2" style="font-size: 1.5rem;"></i>
+              </a>
+              <a href="http://127.0.0.1:5500/login.html">
+                <i class="bi bi-person-circle mx-2" style="font-size: 1.5rem;"></i>
+              </a>   
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <div id="mainCarousel" class="carousel slide bg-secondary text-light py-5" data-bs-ride="carousel">
+        <div class="carousel-inner container">
+          <!-- Diapositiva 1 -->
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1 class="text-warning">STAR SHOP</h1>
+                <p class="text-light">Tu Destino Perfecto para Bebidas Exclusivas</p>
+                <p class="text-light">Bienvenido a Estar Shop, donde transformamos cada ocasión en una celebración inolvidable.</p>
+              </div>
+              <div class="col-md-6 text-center">
+                <img src="Productos/Corona_1_a51f085cc5.jpeg" alt="Imagen 1" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+          
+          <!-- Diapositiva 2 -->
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1 class="text-warning">PRODUCTOS</h1>
+                <p class="text-light">Encuentra tu bebida perfecta en Estar Shop: Cervezas Backus, agua San Mateo y más, todos los productos de Backus a un clic.</p>
+              </div>
+              <div class="col-md-6 text-center">
+                <img src="Productos/Corona_Cero_1_66074a5c03.jpg" alt="Imagen 2" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+      
+          <!-- Diapositiva 3 -->
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1 class="text-warning">SOBRE NOSOTROS</h1>
+                <p class="text-light">En Estar Shop, nos apasiona ofrecerte las mejores bebidas para cada ocasión. Nuestra tienda se especializa en productos de alta calidad de la marca Backus.</p>
+              </div>
+              <div class="col-md-6 text-center">
+                <img src="Productos/56f314be1182e9042b3b12d746f14b21_87e5474847.png" alt="Imagen 3" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Controles del Carrusel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+      
+      <!-- Sección Media -->
+<div class="container my-5">
+    <h2 class="text-center text-warning mb-4">NUESTRAS MARCAS</h2>
+    <div class="row">
+      <!-- Bebida 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="Productos/category_img_01.png" alt="Bebida 1" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">MARCAS NACIONALES</h5>
+            <a href="#" class="btn btn-warning">Comprar</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bebida 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="Productos/Corona_Extra_355_ML_800x1000_PX_Transparente_3fb9632e22.png" alt="Bebida 2" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">MARCAS GLOBALES</h5>
+            <a href="#" class="btn btn-warning">Comprar</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bebida 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="Productos/category_img_03.png" alt="Bebida 3" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">BEBIDAS NO ALCOHÓLICAS</h5>
+            <a href="#" class="btn btn-warning">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-warning text-dark py-5 position-relative">
+    <div class="row align-items-center">
+      <!-- Contenido -->
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="fw-bold display-3">Quiénes<br>Somos</h1>
+        <a href="#" class="btn btn-light btn-lg mt-3 d-inline-flex align-items-center">
+          CONOCE MÁS
+          <span class="ms-2">➔</span>
+        </a>
+      </div>
+      <!-- Imagen -->
+      <div class="col-md-6">
+        <div class="position-relative">
+          <img src="Productos/56f314be1182e9042b3b12d746f14b21_87e5474847.png" alt="Banner" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-dark-subtle position-relative pt-3">
+    <div class="text-center">
+    <p>CANALES DE ATENCIÓN Y RESPUESTA A PETICIONES, CONSULTAS, QUEJAS Y RECLAMOS DE TITULARES DE DATOS PERSONALES 
+      <a class="link-warning" href="">AQUÍ.</a>
+    </p>
+  </div>
+  </div>
+  <!--fooder o pie de pagina-->
+  <footer class="bg-light text-dark py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Logo y redes sociales -->
+        <div class="col-md-3 text-center text-md-start mb-4 mb-md-0">
+          <img src="img/logo-backus.png" alt="Logo Star Shop" class="mb-3" style="width: 150px;">
+          <div class="d-flex justify-content-center justify-content-md-start gap-3">
+            <a href="#" class="text-dark"><i class="bi bi-youtube fs-4"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-spotify fs-4"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-linkedin fs-4"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-instagram fs-4"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-facebook fs-4"></i></a>
+          </div>
+        </div>
+  
+        <!-- Columnas de enlaces -->
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-2 mb-4 mb-md-0">
+              <h6 class="fw-bold text-warning">NOSOTROS</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-dark text-decoration-none">Inicio</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Quiénes Somos</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Historia</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Nuestra Inspiración</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Plantas y Distribuidoras</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Nuestros Líderes</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+              <h6 class="fw-bold text-warning">MARCAS</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-dark text-decoration-none">Marcas Nacionales</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Marcas Internacionales</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Bebidas Sin Alcohol</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+              <h6 class="fw-bold text-warning">SOSTENIBILIDAD</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-dark text-decoration-none">Nuestros Ejes</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+              <h6 class="fw-bold text-warning">TALENTO BACKUS</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-dark text-decoration-none">Programas de Talento</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Trabaja con Nosotros</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Preguntas Frecuentes</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+              <h6 class="fw-bold text-warning">PRENSA & MEDIA</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-dark text-decoration-none">Blog de Noticias</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Podcast</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+              <h6 class="fw-bold text-warning">INVERSIONISTAS</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-dark text-decoration-none">Ética y Gobierno</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Políticas Corporativas</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Información Financiera</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Memoria Anual</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Segunda fila: texto inferior -->
+      <div class="row mt-4">
+        <div class="col-md-12 text-center">
+          <small class="text-muted">TÉRMINOS Y CONDICIONES (GENERALES) | POLÍTICA DE PRIVACIDAD | POLÍTICA DE PROTECCIÓN DE DATOS PERSONALES | DERECHOS ARCO | CONTÁCTENOS</small>
+          <div class="mt-2">
+            <img src="" alt="Responsabilidad 18+" class="me-2" style="width: 40px;">
+            <img src="" alt="Consumo Responsable" style="width: 40px;">
+          </div>
+          <p class="mt-3 mb-0 text-muted">&copy; Star Shop 2024</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+      <!--Boostrap JS-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <!--JS-->
+      <script> scr="js/script.js"</script>
+</body>
+</html>

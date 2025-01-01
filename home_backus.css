@@ -1,0 +1,121 @@
+header i {
+    color: #ffc107; 
+    cursor: pointer;
+  }
+  
+ 
+  .logo {
+    margin-left: 15px; 
+  }
+
+.carousel-item h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.carousel-item{
+    font-size: 1.2rem;
+}
+
+.carousel-item img{
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ffc107; 
+    border-radius: 50%;
+    padding: 25px;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    left: -50px;
+}
+
+.carousel-control-next-icon{
+    position: relative;
+    right: -50px;
+}
+
+/* Efecto hover para las tarjetas */
+.product-card {
+    transition: transform 0.3s ease-in-out; /* Animación de cambio de tamaño */
+    width: 350px; /* Tamaño fijo del contenedor */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    margin: 20px; /* Espaciado entre tarjetas */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Opcional: agrega un borde */
+    border-radius: 8px; /* Esquinas redondeadas */
+    overflow: hidden; /* Asegura que el contenido no se salga */
+}
+  
+.product-card:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen cuando se pasa el mouse */
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4); /* Agrega sombra para dar el efecto de enfoque */
+}
+  
+/* Estilo para el título del producto */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f8b400; /* Color del título */
+}
+
+.product-card img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: 500px; /* Altura fija pero más pequeña */
+    object-fit: contain; /* Asegura que las imágenes no se deformen */
+    transition: transform 0.5s ease; /* Transición para el efecto de zoom */
+}
+
+.product-card:hover img {
+    transform: scale(1.1); /* Amplía la imagen al pasar el cursor */
+}
+
+.product-card a {
+    display: block; /* El enlace ocupa toda la fila */
+    margin-top: 10px; /* Separación con la imagen */
+    padding: 10px;
+    background-color: #f39c12; /* Naranja */
+    color: #000; /* Texto negro */
+    text-decoration: none; /* Quita el subrayado */
+    border-radius: 5px; /* Esquinas redondeadas */
+    font-weight: bold;
+    transition: background-color 1s ease;
+}
+
+/* Estilo para el contenedor */
+.container-fluid {
+    position: relative;
+    overflow: hidden;
+    padding-right: 1.5cm;
+    padding-left: 1.5cm;
+}
+  
+  /* Estilo para el botón */
+.btn-light {
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+  
+.btn-light:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.link-warning{
+    text-decoration: none;
+}
+  
+
+
+  
+  
+
+  
+
+
+  
